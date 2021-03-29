@@ -9,19 +9,78 @@
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+<!-- <link rel="manifest" href="/site.webmanifest"> -->
+
+<meta name="Keywords" content=" Anaghaa, Anaghaa Chakrapani, Chakrapani, anagha, anaghaa, chakrapani, raghavan, Chakrapani Raghavan, UX Design, Design Portfolio, Portfolio, Researcher, Research, anxghaa, anaghaa.jpeg, Vans Custom Culture">
 
 <style type="text/css">
 	.banner{
 		width: 100%;
+	
+	}
+
+		@media only screen and (max-width: 2000px) {
+		.large{
+			display: block;
+
+		}
+
+		.medium{
+			display: none;
+		}
+
+		.small{
+			display: none;
+		}
+	}
+
+	@media only screen and (max-width: 600px) {
+		.large{
+			display: none;
+
+		}
+
+		.medium{
+			display: block;
+		}
+
+		.small{
+			display: none;
+		}
+	}
+
+	@media only screen and (max-width: 480px) {
+		.large{
+			display: none;
+
+		}
+
+		.medium{
+			display: none;
+		}
+
+		.small{
+			display: block;
+		}
 	}
 </style>
 </head>
 <body>
 
-	<div class="container-fluid">
-		<img class = "banner" src="images/Coming_soon_web.jpg" alt="Coming Soon!">
+	<div class="container-responsive">
+		<img class = "banner large" src="images/Coming_soon_web.jpg" alt="Coming Soon!">
 	</div>
+
+	<div class="container-responsive">
+		<img class = "banner medium" src="images/coming_soon_md.jpg" alt="Coming Soon!">
+	</div>
+
+	<div class="container-responsive">
+		<img class = "banner small" src="images/Coming_soon_sm.jpg" alt="Coming Soon!">
+	</div>
+
+
+
 
 </body>
 </html>
