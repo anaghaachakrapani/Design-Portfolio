@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>Anaghaa's Portfolio - Resume</title>
+
+<link rel="stylesheet" type="text/css" href="portfolio.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+</head>
+<body>
+
+<!-- navbar desktop -->
+<nav class="navbar navbar-fixed-top large">
+  <div class="container-responsive">
+    <div class="navbar-header">
+      <a class="navbar-brand logo_d" href="index.html"></a>
+     
+    </div>
+    </div>
+     <ul class="nav navbar-nav navbar-right">
+      <li><a href="index.html" class="heading3_d black"> Work</a></li>
+      <li><a href="about.html" class="heading3_d black"> About</a></li>
+      <li><a href="resume.html" class="heading3_d purple"> Resume</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- navbar tab -->
+<nav class="navbart navbart-fixed-top medium">
+  <div class="container-responsive navbar">
+    <!-- tab -->
+    <a class="navbar-brand  medium" href="index.html"><span><img style="display: inline-flex;" src="images/tab/LOGO_tab.svg"></span></a>
+<span style="font-size:0.5rem;cursor:pointer; float: right; margin-top: 2%; margin-right: 2%; position: relative; " onclick="openNav()">&#9776;<span><img src="images/tab/menu.svg"></span></span>
+</div>
+</nav>
+
+<!-- Mobile -->
+<nav class="navbart navbart-fixed-top small">
+  <div class="container-responsive navbar">
+     <a class="navbar-brand small" href="index.html"><span><img style="display: inline-flex;" src="images/mobile/LOGO_m.svg"></span></a>
+<span style="font-size:0.5rem;cursor:pointer; float: right; margin-top: 2%; margin-right: 2%; position: relative; " onclick="openNav()">&#9776;<span><img src="images/tab/menu.svg"></span></span>
+</div>
+</nav>
+
+
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn purpleno" onclick="closeNav()">&times;</a>
+
+    <!-- Tab -->
+  <div class="overlay-content medium">
+    <a href="index.html" class="heading1_d black"> Work</a>
+    <a href="about.html" class="heading1_d black"> About</a>
+    <a href="resume.html" class="heading1_d black"> Resume</a>
+      <p class="body6_d grey icons">
+        <span><a href="https://www.linkedin.com/in/anaghaa-chakrapani/" target="_blank"><img src="images/desktop/linkedin.svg"></a></span>
+        <span><a href="mailto:anaghaa0210@gmail.com" target="_blank"><img src="images/desktop/mail.svg"></a></span>
+        <span><a href="https://www.instagram.com/anaghaa_chakrapani/" target="_blank"><img  src="images/desktop/ig.svg"></a></span>
+    </p>
+  </div>
+
+  <!-- phone -->
+
+    <div class="overlay-content small">
+    <a href="index.html" class="heading2_d black"> Work</a>
+    <a href="about.html" class="heading2_d black"> About</a>
+    <a href="resume.html" class="heading2_d black"> Resume</a>
+      <p class="body6_d grey icons">
+        <span><a href="https://www.linkedin.com/in/anaghaa-chakrapani/" target="_blank"><img src="images/desktop/linkedin.svg"></a></span>
+        <span><a href="mailto:anaghaa0210@gmail.com" target="_blank"><img src="images/desktop/mail.svg"></a></span>
+        <span><a href="https://www.instagram.com/anaghaa_chakrapani/" target="_blank"><img  src="images/desktop/ig.svg"></a></span>
+    </p>
+  </div>
+</div>
+
+
+
+<!--content-->
+
+
+
+<picture>
+	<img src="images/auroville/wip.jpg" class="resume large">
+</picture>
+
+<picture>
+  <img src="images/auroville/wip.jpg" class="resume_t medium">
+</picture>
+
+<picture>
+  <img src="images/auroville/wip.jpg"  class="resume_m small">
+</picture>
+
+
+
+
+
+<!-- footer desktop -->
+
+<div class="container-fluid">
+  <div class="container-responsive footer">
+
+ <p class="body6_d grey" id="myBtn"><button onclick="topFunction()" id="myBtn"title="Go to top">Back to the top <span><img src="images/desktop/up.svg"></span></button></p>
+
+        <span><a href="https://www.linkedin.com/in/anaghaa-chakrapani/" target="_blank"><img class="icon" src="images/desktop/linkedin.svg"></a></span>
+        <span><a href="mailto:anaghaa0210@gmail.com" target="_blank"><img src="images/desktop/mail.svg"></a></span>
+        <span><a href="https://www.instagram.com/anaghaa_chakrapani/" target="_blank"><img class="icon1" src="images/desktop/ig.svg"></a></span>
+    </p>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="container-responsive">
+    <h5 class="body6_d grey name">Designed & Developed with  💖  by Anaghaa<br><br><spam style="color: #DFDFDF;">Design Insipration: Winnona Naser in BestFolios</spam></h5>
+  </div>
+</div>
+
+<div class="container-fluid">
+ <img src="images/desktop/divi.png" style="min-height: 100%; width: 100%;">
+</div>
+
+
+
+
+<!-- javascript -->
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+
+//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+</script>
+
+</body>
+</html>
