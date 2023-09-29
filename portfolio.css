@@ -420,6 +420,18 @@ text-decoration: none;
 
 }
 
+.projectbanner_big1{
+	display: block;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 3%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 82%;
+
+}
+
 
 .overlayproj {
   position: absolute;
