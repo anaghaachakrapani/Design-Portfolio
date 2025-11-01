@@ -773,22 +773,24 @@ text-decoration: none;
 
 
 
+   .image-container {
+            overflow: auto;
+            overflow-x: auto;
+            overflow-y: auto;
+            position: relative;
+            background-image: url('desktop/trial.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .image-container img {
+            max-width: none;
+            height: auto;
+            display: block;
+            width: auto;
+        }
 
 
 
@@ -873,6 +875,19 @@ text-decoration: none;
 		.small{
 			display: none;
 		}
+.image-container {
+                width: 100%;
+                overflow-x: auto;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+   .image-container img {
+                max-width: none;
+                width: auto;
+                height: auto;
+                display: block;
+            }
+	
 	}
 
 @media only screen and (max-width: 550px) {
@@ -903,5 +918,22 @@ text-decoration: none;
 
 		.small{
 			display: block;
+
+			
+  .image-container {
+                width: 100%;
+                overflow-x: auto;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+	 .image-container img {
+                max-width: none;
+                width: auto;
+                height: auto;
+                display: block;
+            }
+
+
+	
 		}
 	}
